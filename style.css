@@ -147,30 +147,40 @@ body{
 .headrow{
   display: flex;
   flex-direction: column;
+  background-color: orange;
 }
-.netflixrow{
+.first{
   order: 1;
+  -webkit-order: 1;
 }
-.popularrow{
+.second{
   order: 2;
+  -webkit-order: 2;
 }
-.trendingrow{
+.third{
   order: 3;
+  -webkit-order: 3;
 }
-.actionMoviesrow{
+.fourth{
   order: 4;
+  -webkit-order: 4;
 }
-.comedyMoviesrow{
+.fifth{
   order: 5;
+  -webkit-order: 5;
 }
-.horrorMoviesrow{
+.sixth{
   order: 6;
+  -webkit-order: 6;
 }
-.romanceMoviesrow{
+.seventh{
   order: 7;
+  -webkit-order: 7;
 }
-.documentryrow{
+.eighth{
   order: 8;
+  -webkit-order: 8;
+  background-color: pink;
 }
 
 

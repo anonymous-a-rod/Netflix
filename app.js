@@ -24,6 +24,9 @@ const requests = {
 function truncate(str, n) {
   return str?.length > n ? str.substr(0, n - 1) + "..." : str;
 }
+
+async function getData(){
+
 // banner
 fetch(requests.fetchNetflixOrignals)
 .then((res) => res.json())
@@ -42,6 +45,8 @@ fetch(requests.fetchNetflixOrignals)
 
 
 // movie rows
+
+// netflix
 fetch(requests.fetchNetflixOrignals)
     .then((res) => res.json())
     .then((data) => {
@@ -256,4 +261,8 @@ fetch(requests.fetchPopular)
           rowPosters.appendChild(poster);
         });
       });
+
+    }
+
+    getData();
 
