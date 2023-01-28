@@ -142,5 +142,34 @@ body{
 .row_posterLarge2:hover{
   transform: scale(1.09);
   opacity: 1;
-
 }
+.headrow{
+  display: flex;
+  flex-direction: column;
+}
+.netflixrow{
+  order: 1;
+}
+.popularrow{
+  order: 2;
+}
+.trendingrow{
+  order: 3;
+}
+.actionMoviesrow{
+  order: 4;
+}
+.comedyMoviesrow{
+  order: 5;
+}
+.horrorMoviesrow{
+  order: 6;
+}
+.romanceMoviesrow{
+  order: 7;
+}
+.documentryrow{
+  order: 8;
+}
+
+
