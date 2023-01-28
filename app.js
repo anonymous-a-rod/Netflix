@@ -28,7 +28,7 @@ function truncate(str, n) {
 async function getData(){
 
 // banner
-fetch(requests.fetchNetflixOrignals)
+await fetch(requests.fetchNetflixOrignals)
 .then((res) => res.json())
 .then((data) => {
   console.log(data.results);
@@ -47,7 +47,7 @@ fetch(requests.fetchNetflixOrignals)
 // movie rows
 
 // netflix
-fetch(requests.fetchNetflixOrignals)
+await fetch(requests.fetchNetflixOrignals)
     .then((res) => res.json())
     .then((data) => {
         const headrow = document.getElementById("headrow");
@@ -74,7 +74,7 @@ fetch(requests.fetchNetflixOrignals)
 
 
     // Popular
-fetch(requests.fetchPopular)
+  await fetch(requests.fetchPopular)
     .then((res) => res.json())
     .then((data) => {
         const headrow = document.getElementById("headrow");
