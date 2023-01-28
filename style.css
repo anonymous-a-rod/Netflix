@@ -35,7 +35,7 @@ body{
 
 }
 .nav_logo{
-  width: 120px
+  width: 120px;  
 }
 .nav_right{
   position: fixed;
@@ -45,6 +45,7 @@ body{
 }
 .nav_avatar{
   width: 35px;
+  border-radius: 50%;
 }
 #banner{
   color: white;
